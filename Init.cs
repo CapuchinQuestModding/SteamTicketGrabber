@@ -20,8 +20,6 @@ namespace SteamTicketGrabber
         public const string Version = "1.0.0";
     }
 
-    public enum ModLoader { BepInEx, MelonLoader }
-
     [BepInPlugin(ModInfo.UUID, ModInfo.Name, ModInfo.Version)]
     public class BepInExInit : BasePlugin
     {
